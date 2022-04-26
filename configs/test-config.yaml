@@ -3,6 +3,4 @@ kind: ConfigMap
 metadata:
   name: test-config
 data:
-  values.yaml: |-
-    foo: bar
-    beep: boop
+  foo: bar
