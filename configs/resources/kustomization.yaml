@@ -1,4 +1,0 @@
-namespace: fleet-local
-
-resources:
-- test-config.yaml
