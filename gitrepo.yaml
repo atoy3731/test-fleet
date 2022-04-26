@@ -1,0 +1,10 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: bigbang-umbrella
+  namespace: fleet-local
+spec:
+  repo: ssh://git@github.com:atoy3731/test-fleet.git
+  targets: []
+  paths:
+  - ./configs
