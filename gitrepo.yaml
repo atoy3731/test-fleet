@@ -6,6 +6,11 @@ metadata:
 spec:
   repo: https://github.com/atoy3731/test-fleet.git
   targets:
-  - clusterSelector: {}
+  - clusterSelector:
+      matchExpressions:
+      - key: provider.cattle.io
+        operator: NotIn
+        values:
+        - harvester
   paths:
   - ./configs
